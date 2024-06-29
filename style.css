@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    font-family: "Ubuntu Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson
+}
+main {
+    min-height: 70vh;
+}
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson
+}
+.carmesi{
+    color: crimson;
+}
+#fondoCarmesi{
+    background-color: crimson;
+}
+.pelis{
+    max-width: 300px;
+    transition: .5s;
+    overflow: hidden;
+}
+.pelis img{
+    object-fit: cover;
+    transition: .5s;
+}
+.pelis:hover{
+    cursor: pointer;
+    box-shadow: 2px 10px 15px 2px black;
+}
+.pelis img:hover{
+    transform: scale(1.06);
+}
